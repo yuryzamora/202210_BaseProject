@@ -6,28 +6,28 @@ enum Tipo {
 
 export class Planta {
   id: number;
-  nombreComun: string;
-  nombreCientifico: string;
+  nombre_comun: string;
+  nombre_cientifico: string;
   tipo: Tipo;
-  alturaMaxima: number;
+  altura_maxima: number;
   clima: string;
-  sustratoSiembra: string;
+  sustrato_siembra: string;
 
   constructor(
     id: number,
-    nombreComun: string,
-    nombreCientifico: string,
+    nombre_comun: string,
+    nombre_cientifico: string,
     tipo: Tipo,
-    alturaMaxima: number,
+    altura_maxima: number,
     clima: string,
-    sustratoSiembra: string
+    sustrato_siembra: string
   ) {
     this.id = id;
-    this.nombreComun = nombreComun;
-    this.nombreCientifico = nombreCientifico;
+    this.nombre_comun = nombre_comun;
+    this.nombre_cientifico = nombre_cientifico;
     this.tipo = tipo;
-    this.alturaMaxima = alturaMaxima;
+    this.altura_maxima = altura_maxima;
     this.clima = clima;
-    this.sustratoSiembra = sustratoSiembra;
+    this.sustrato_siembra = sustrato_siembra;
   }
 }
